@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2fe;
+}
+
+.icons a{
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+
+    transition: background-position 0.8s, color 0.5s;
+}
+
+.icons a:nth-child(1){
+    color: #1976d3;
+
+    background-image: linear-gradient(#fff 50%, #1976d3 50%);
+}
+.icons a:nth-child(2){
+    color: #E1306C;
+
+    background-image: linear-gradient(
+        #fff 50%,
+        #dd2a7b 5%,
+        #d74f8c,
+        #8134af,
+        #515bd4
+    );
+               
+}
+.icons a:nth-child(3){
+    color: #f44236;
+
+    background-image: linear-gradient(#fff 50%, #f44236 50%);
+}
+
+.icons a:hover{
+    background-position: 0% 100%;
+    color: white;
+}
+
+
+/* for icons color */
+/* .fa-instagram {
+  background: linear-gradient(
+    45deg,
+    #f58529,
+    #dd2a7b,
+    #8134af,
+    #515bd4
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
